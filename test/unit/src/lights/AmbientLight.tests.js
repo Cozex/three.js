@@ -1,10 +1,6 @@
-/**
- * @author TristanVALCKE / https://github.com/Itee
- * @author moraxy / https://github.com/moraxy
- */
 /* global QUnit */
 
-import { runStdLightTests } from '../../qunit-utils';
+import { runStdLightTests } from '../../utils/qunit-utils';
 import { AmbientLight } from '../../../../src/lights/AmbientLight';
 
 export default QUnit.module( 'Lights', () => {
@@ -28,23 +24,23 @@ export default QUnit.module( 'Lights', () => {
 		} );
 
 		// INHERITANCE
-		QUnit.todo( "Extending", ( assert ) => {
+		QUnit.todo( 'Extending', ( assert ) => {
 
-			assert.ok( false, "everything's gonna be alright" );
+			assert.ok( false, 'everything\'s gonna be alright' );
 
 		} );
 
 		// INSTANCING
-		QUnit.todo( "Instancing", ( assert ) => {
+		QUnit.todo( 'Instancing', ( assert ) => {
 
-			assert.ok( false, "everything's gonna be alright" );
+			assert.ok( false, 'everything\'s gonna be alright' );
 
 		} );
 
 		// PUBLIC STUFF
-		QUnit.todo( "isAmbiantLight", ( assert ) => {
+		QUnit.todo( 'isAmbiantLight', ( assert ) => {
 
-			assert.ok( false, "everything's gonna be alright" );
+			assert.ok( false, 'everything\'s gonna be alright' );
 
 		} );
 
